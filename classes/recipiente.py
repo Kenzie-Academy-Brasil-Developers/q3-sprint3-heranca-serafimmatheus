@@ -29,9 +29,11 @@ class Recipiente:
 
     def estado(self):
         if self.limpo:
-            print("Limpo")
+            # print("Limpo")
+            return "Limpo"
         else:
-            print("Sujo")
+            # print("Sujo")
+            return "Sujo"
 
     def sujar(self):
         self.limpo = False
